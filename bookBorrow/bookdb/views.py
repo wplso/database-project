@@ -235,6 +235,7 @@ def my_info(request):
 
     #Member 모델의 정보를 JSON으로 반환
     return JsonResponse({
+        "id": user.id,
         "login_id": user.login_id,
         "first_name": user.first_name,
         "email": user.email,
