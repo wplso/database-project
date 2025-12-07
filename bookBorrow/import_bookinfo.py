@@ -76,5 +76,5 @@ def import_bookinfo_from_csv(filepath):
     print(f"  - {skipped_error_count}건 스킵 (원인: 기타 오류)")
 
 if __name__ == "__main__":
-    csv_file_path = 'bookInfo_old.csv'
+    csv_file_path = 'bookInfo.csv'
     import_bookinfo_from_csv(csv_file_path)
