@@ -37,7 +37,7 @@ def import_bookinfo_from_csv(filepath):
                 skipped_length_count += 1
                 continue
 
-            if author_from_csv and len(str(author_from_csv)) > 50:
+            if author_from_csv and len(str(author_from_csv)) > 255:
                 skipped_length_count += 1
                 continue
 
