@@ -30,7 +30,7 @@ __결과물: publisher.csv__
 ---
 ###### 3. create_bookInfo_dataset.py
 
-'도서별 상세정보(202112).csv'의 publisher_name 컬럼을 'publisher.csv'의 publisher_id에 맞게 변환(매핑)합니다.
+'도서별 상세정보_추출본.csv'의 publisher_name 컬럼을 'publisher.csv'의 publisher_id에 맞게 변환(매핑)합니다.
 
 __결과물: bookInfo.csv__
 
