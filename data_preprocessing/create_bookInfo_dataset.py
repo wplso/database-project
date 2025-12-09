@@ -36,5 +36,7 @@ if len(unmatched) > 0:
 else:
     print("모든 publisher_name이 정상적으로 publisher_id로 매핑되었습니다.")
     merged_df = merged_df.drop(columns=['publisher_name'])
+    merged_df = merged_df[['isbn', 'title', 'author', 'category_id', 'publisher_id', 'image_url']]
     merged_df.to_csv(save_path, index=False, encoding='utf-8-sig')
     print(f"{save_path}에 저장이 완료되었습니다.")
+
