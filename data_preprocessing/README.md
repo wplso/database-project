@@ -21,11 +21,11 @@ __결과물: 도서별 상세정보_추출본.csv__
 ---
 ###### 2. create_publisher_dataset.py
 
-'도서별 상세정보_추출본.csv'으로부터 중복 없이 publisher_name 컬럼을 추출하고 순서대로 publisher_id 컬럼 데이터를 부여합니다.
+'도서별 상세정보_추출본.csv'으로부터 중복 없이 publisher_name 컬럼을 추출하고, 순서대로 publisher_id 컬럼 데이터를 부여합니다.
 
 __결과물: publisher.csv__
 
-실제 프로젝트에서 사용할 때에는 해당 결과물에 phone_number 컬럼을 엑셀 프로그램에서 직접 추가하여 임의의 데이터를 입력하였습니다.
+실제 프로젝트에서 사용할 때에는 해당 결과물에 phone_number 컬럼을 엑셀 프로그램에서 직접 추가하여 임의의 데이터(전화번호)를 입력하는 방식으로 진행하였습니다.
 
 ---
 ###### 3. create_bookInfo_dataset.py
